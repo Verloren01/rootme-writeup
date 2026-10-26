@@ -1,0 +1,4 @@
+*.pcap
+notas_privadas.md
+.env
+__pycache__/
