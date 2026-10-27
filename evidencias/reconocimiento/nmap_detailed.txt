@@ -1,0 +1,21 @@
+# Nmap 7.991 scan initiated Mon Oct 26 22:46:15 2026 as: nmap -p22,80 -sC -sV -Pn -oN /home/vrl0/rootme-writeup/evidencias/reconocimiento/nmap_detailed.txt 10.65.143.116
+Nmap scan report for 10.65.143.116
+Host is up (0.14s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 ff:fd:85:a7:86:8e:53:84:38:1d:6f:4b:80:d7:28:a4 (RSA)
+|   256 fd:ed:20:4b:9c:f2:d5:c8:20:82:e3:87:9a:cc:8d:4c (ECDSA)
+|_  256 58:22:8c:13:ff:39:df:b4:19:3c:40:4e:d3:b2:df:bc (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: HackIT - Home
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 26 22:46:27 2026 -- 1 IP address (1 host up) scanned in 12.36 seconds

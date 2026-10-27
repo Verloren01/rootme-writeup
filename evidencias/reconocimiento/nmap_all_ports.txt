@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Mon Oct 26 22:42:34 2026 as: nmap -p- --min-rate=1000 -T4 -Pn -oN /home/vrl0/rootme-writeup/evidencias/reconocimiento/nmap_all_ports.txt 10.65.143.116
+Nmap scan report for 10.65.143.116
+Host is up (0.14s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Mon Oct 26 22:44:43 2026 -- 1 IP address (1 host up) scanned in 128.73 seconds

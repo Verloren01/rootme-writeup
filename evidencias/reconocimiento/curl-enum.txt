@@ -1,0 +1,5 @@
+uploads -> 301
+panel -> 301
+index.php -> 200
+css -> 301
+js -> 301
